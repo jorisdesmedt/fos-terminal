@@ -1,0 +1,42 @@
+.app-container {
+  width: 770px;
+  height: 460px;
+  position: absolute;
+}
+
+.header {
+  position: absolute;
+  top: 0px;
+  height: 80px;
+  text-align: center;
+  width: 100%;
+}
+
+.column1 {
+  position: absolute;
+  top: 80px;
+  bottom: 0;
+  width: 400px;
+  left: 0;
+}
+
+.column2 {
+  position: absolute;
+  top: 80px;
+  bottom: 0;
+  width: 400px;
+  right: 0;
+}
+
+img {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  &.smaller {
+    max-width: 80%;
+  }
+}

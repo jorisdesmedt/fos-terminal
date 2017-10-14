@@ -1,0 +1,14 @@
+<div class="app-container">
+  <div *ngIf="!showPayment">
+    <h1 class="header">Waiting for payments</h1>
+    <div class="column1">
+      <img src="../assets/img/logo_delhaize.jpg" class="smaller">
+    </div>
+    <div class="column2">
+      <img src="../assets/img/payment-card-delhaize.png">
+    </div>
+  </div>
+  <div *ngIf="!!showPayment">
+    <h1 class="header">Time to pay</h1>
+  </div>
+</div>
